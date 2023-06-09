@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(38, 216, 186);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#header .logo {
+    font-size: 65px;
+    color: white;
+
+}
+
+#header h1 {
+    color: white;
+    font-size: 33px;
+}
+
+.loginform .containerfield {
+    background-color: rgb(38, 216, 186);
+}
+
+.loginform .containerfield input {
+    width: 100%;
+    border: none;
+    padding: 0px;
+    margin: 8px;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    text-indent: 20px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.loginform input[type=submit]{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(18, 160, 141);
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+
+}
