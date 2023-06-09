@@ -7,12 +7,12 @@ body {
 #container {
     width: 300px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 180px;
     text-align: center;
 }
 
 #header .logo {
-    font-size: 65px;
+    font-size: 70px;
     color: white;
 
 }
@@ -40,7 +40,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
-.loginform input[type=submit]{
+
+.loginform input[type=submit] {
     width: 150px;
     height: 30px;
     border: none;
@@ -52,4 +53,22 @@ body {
     color: white;
 
 
+}
+
+.loginform input[type=submit]:hover {
+    background-color: rgb(8, 128, 108);
+    cursor: pointer;
+}
+
+#footer p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+#footer p a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
